@@ -26,3 +26,29 @@ header {
     align-items: center;
     justify-content: flex-start;
 }
+
+/* footer */
+
+footer {
+    position: relative;
+    height: 128px;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-top-right-radius: 200% 80px;
+    border-top-left-radius: 200% 80px;
+}
+
+.footer-logo {
+    height: 32px;
+}
+
+.footer-text {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: white;
+    font-size: 14px;
+}
