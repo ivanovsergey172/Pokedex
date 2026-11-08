@@ -1,0 +1,28 @@
+body {
+    font-family: "Figtree", sans-serif;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgoldenrodyellow;
+    flex: 1;
+}
+
+/* header */
+
+header {
+    height: 80px;
+    background-color: lightcoral;
+    padding: 0px 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-box {
+    max-width: 1440px;
+    width: 1160px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
