@@ -27,6 +27,10 @@ header {
     justify-content: flex-start;
 }
 
+.header-logo img {
+    height: 60px;
+}
+
 /* footer */
 
 footer {
